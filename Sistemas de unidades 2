@@ -1,0 +1,44 @@
+/******************************************************************************
+Sistemas de unidades
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+#include <iostream>
+/*
+Ejemplo para uso de condicional if-else
+*/
+using namespace std;
+int main()
+{
+    int kg;
+    int libras;
+    int onzas;
+    int resultado;
+    
+    cout<< " Escribe el valor en kilogramos " ;
+    cin>>kg;
+    cout<< " Escribe la unidad a que quiere convertir " ;
+    cin>>libras;
+    if(kg=2.20462)
+    resultado=kg*2.20462;
+    cout<<"el resultado es "<<resultado<<endl;
+
+
+    cout<< " Escribe el valor en kilogramos " ;
+    cin>>kg;
+    cout<< " Escribe la unidad a que quiere convertir " ;
+    cin>>onzas;
+    if(kg=35.274){
+    resultado=kg*35.274;
+    cout<<"el resultado es "<<resultado<<endl;
+
+}
+    else
+    
+    {
+  cout<<"no hay resultado"<<endl;
+    
+}
+    return 0;
+    
+}
